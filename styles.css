@@ -1,0 +1,59 @@
+/* Simple CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background: #fafafa;
+    color: #333;
+    padding: 1rem;
+  }
+  
+  /* Navigation Bar */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  nav li {
+    display: inline-block;
+  }
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 0.5rem;
+  }
+  nav a.active {
+    background: #333;
+    color: #fff;
+    border-radius: 4px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .my-photo {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 1rem 0;
+  }
+  
+  /* Main Content */
+  main {
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.875rem;
+    color: #666;
+  }
