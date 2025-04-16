@@ -33,17 +33,19 @@
     border-radius: 4px;
   }
   
-  /* Hero Section */
-  .hero {
-    text-align: center;
-    margin-top: 2rem;
-  }
-  .my-photo {
-    max-width: 200px;
-    border-radius: 50%;
-    margin: 1rem 0;
+  /* This container puts the image on the left, text on the right */
+  .intro-section {
+    display: flex;          /* side-by-side layout */
+    align-items: flex-start;/* top-align text with the top of the image */
+    margin-bottom: 1rem;    /* some space below */
   }
   
+  /* Sizing the image so it’s not huge */
+  .intro-image {
+    max-width: 200px;  /* or 250px, 300px—whatever is "regular" for you */
+    height: auto;      /* keep aspect ratio */
+    margin-right: 1rem;/* space between image and text */
+  }
   /* Main Content */
   main {
     margin: 2rem auto;
